@@ -20,7 +20,7 @@ const PortfolioPage = () => {
       </header>
 
       {/* About Section */}
-      <section className="mb-8 bg-gray-100 text-gray-800 p-6 rounded-lg shadow-lg">
+      <section className="mb-8 bg-white text-gray-800 p-6 rounded-lg shadow-lg">
         <h2 className="text-xl font-semibold border-b-2 border-gray-700 inline-block pb-1 mb-4">자기소개</h2>
         <p className="text-sm">서비스/프로덕트를 만드는 것을 좋아하는 백엔드 엔지니어입니다. 효율적이고 확장 가능한 시스템을 설계하고 개발하는 데 열정을 가지고 있습니다.</p>
       </section>
@@ -79,7 +79,7 @@ const PortfolioPage = () => {
       {/* Work Experience Section */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">경력</h2>
-        <div className="mb-6 bg-gray-100 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">롯데e커머스</h3>
           <p className="text-xs text-gray-500">2022.12 - 2024.12 (2년)</p>
           <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
@@ -89,8 +89,8 @@ const PortfolioPage = () => {
           </ul>
         </div>
 
-        <div className="mb-6 bg-gray-100 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
-          <h3 className="text-lg font-medium text-gray-800">코리아이플랫폼</h3>
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h3 className="text-lg font-medium text-gray-800">코리아이플랫폼</h3>
           <p className="text-xs text-gray-500">2021.09 - 2022.06 (0년 9개월)</p>
           <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
             <li>초기 프로덕트 개발에 참여하여 백엔드 파트 담당</li>
@@ -103,7 +103,7 @@ const PortfolioPage = () => {
       {/* Projects Section */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">프로젝트</h2>
-        <div className="mb-6 bg-gray-100 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">프로젝트 이름</h3>
           <p className="text-xs text-gray-500">설명: 프로젝트에 대한 간단한 설명</p>
           <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
@@ -117,7 +117,7 @@ const PortfolioPage = () => {
       {/* Education Section */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">교육</h2>
-        <div className="mb-6 bg-gray-100 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">인천대학교 컴퓨터학부</h3>
           <p className="text-xs text-gray-500">데이터베이스 및 사물인터넷 서비스 연구실</p>
         </div>
@@ -126,7 +126,7 @@ const PortfolioPage = () => {
       {/* Certifications Section */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">자격증</h2>
-        <div className="mb-6 bg-gray-100 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">자격증 이름</h3>
           <p className="text-xs text-gray-500">발급기관 및 발급일</p>
         </div>
