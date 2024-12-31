@@ -1,6 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaAws, FaDocker, FaCogs } from 'react-icons/fa';
+import { FaNodeJs, FaDatabase, FaAws, FaCogs } from 'react-icons/fa';
 
 const PortfolioPage = () => {
   return (
