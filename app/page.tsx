@@ -1,6 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import { FaNodeJs, FaDatabase, FaAws, FaCogs, FaJava } from 'react-icons/fa';
+import { FaDatabase, FaCogs, FaJava } from 'react-icons/fa';
 import { FaCloud } from 'react-icons/fa6';
 
 const PortfolioPage = () => {
@@ -214,7 +214,7 @@ const PortfolioPage = () => {
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">교육</h2>
         <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
-          <h3 className="text-lg font-medium text-gray-800">롯데e커머스</h3>
+          <h3 className="text-lg font-medium text-gray-800">롯데e커머스</h3>
           <p className="text-xs text-gray-500">2022.06 ~ 2022.12</p>
           <p className="text-xs text-gray-500">기업 연계형 개발자 교육 (960시간)</p>
         </div>
