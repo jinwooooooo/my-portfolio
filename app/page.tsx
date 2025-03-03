@@ -112,6 +112,19 @@ const PortfolioPage = () => {
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">프로젝트</h2>
         <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h3 className="text-lg font-medium text-gray-800">카탈로그 위너 배치 구조 개선</h3>
+          <p className="text-xs text-gray-500">2025.01 ~ 2025.02</p>
+          <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
+            <li>위너 랭킹/스코어 테이블 변경량 감소를 통한 연동 지연 해소</li>
+            <ul className="list-disc pl-5 text-sm text-gray-600">
+              <li>카탈로그 위너 테이블을 Debezium sink connector 통해 연동받던 전시 및 검색의 지연 이슈 제기 (일당 약 7500만건)</li>
+            </ul>
+            <li>위너 테이블 (약 14억건) 의 스코어 컬럼을 신규 테이블로 이관하여 실제로 변경된 랭킹에 대해서만 연동하도록 배치 개선</li>
+            <li>Redis 활용하여 AS-IS, TO-BE 간 비교를 위한 위너 변경 일별 수치 적재 (약 95%의 연동량 감소)</li>
+            <li className="font-medium text-gray-800">기술 스택 : Spring Framework, Java 8, JdbcTemplate, Aurora Mysql, Confluent Kafka, Redis</li>
+          </ul>
+        </div>
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">룰베이스 배치 (C속성 ➔ M속성 코드화) 고도화</h3>
           <p className="text-xs text-gray-500">2024.09 ~ 2024.12</p>
           <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
@@ -190,7 +203,7 @@ const PortfolioPage = () => {
           <h3 className="text-lg font-medium text-gray-800">사내 깃헙 코파일럿 도입 POC 참여</h3>
           <p className="text-xs text-gray-500">2024.04 ~ 2024.06</p>
           <ul className="list-disc pl-5 text-sm text-gray-600 mt-2">
-            <li>UI, FE, BE, APP 각 영역 총 6명 참가 </li>
+            <li>UI, FE, BE, APP 각 영역 총 6명 참가</li>
             <li>개발 시간 단축도 및 내용, 주니어 개발자 기준 도움이 되는지 파악</li>
             <li className="font-medium text-gray-800">copliot 도입되어 사내 개발자 총 159명 활용 중</li>
           </ul>
@@ -229,12 +242,14 @@ const PortfolioPage = () => {
       <section className="mb-8">
         <h2 className="text-xl font-semibold text-gray-700 border-b-2 border-blue-500 inline-block pb-1 mb-4">자격증</h2>
         <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
-          <h3 className="text-lg font-medium text-gray-800">정보처리기사</h3>
-          <p className="text-xs text-gray-500">2021.12.25</p>
-        </div>
-        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <h3 className="text-lg font-medium text-gray-800">SQLD</h3>
           <p className="text-xs text-gray-500">2021.12.17</p>
+          <p className="text-xs text-gray-500">한국데이터산업진흥원</p>
+        </div>
+        <div className="mb-6 bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h3 className="text-lg font-medium text-gray-800">정보처리기사</h3>
+          <p className="text-xs text-gray-500">2021.11.26</p>
+          <p className="text-xs text-gray-500">한국산업인력공단</p>
         </div>
       </section>
     </div>
